@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+.conteudo
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.titulo
+{
+    font-family: roboto-thin,sans-serif;
+
+}
+.texto
+{
+    font-family: roboto-thin,sans-serif;
+    text-align: justify;
+    padding: 20px;
+    margin: 20px;
+
+}
+#sec1
+{
+    
+    height: 100vh;
+
+}
+#sec2
+{
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+#rodape
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 55px;
+    background-color: #293A56;
+    color: #fff;
+    padding: 10px 0; /* Adapte o padding conforme necessário */
+    display: flex; /* Usa flexbox para alinhar os itens na linha */
+    justify-content: space-between; /* Distribui os itens ao longo do eixo horizontal com espaço entre eles */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    
+}
+#texto_rodape
+{
+    font-family: roboto-thin,sans-serif;
+}
+.barra
+{
+    height: 5px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #F58634;
+    justify-self: inherit;
+}
+.logo_rodape
+{
+    height: 25px;
+    width: 80px;
+    justify-self: left; 
+}
+.contatos
+{
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-end;
+    align-items: center; 
+}
+.contatos img {
+    height: 10px;
+    margin-left: 5px; 
+    margin-right: 5px;     
+    width: auto; 
+}
+#insta
+{
+    height: 20px;
+    margin-top: 5px; /* para alinhar com os demais ícones */
+}
+#begining {
+    cursor: pointer;
+}
+.colunas {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    position: relative;
+}
+
+.coluna {
+    width: 30%; /* Ajuste a largura das colunas conforme necessário */
+    padding: 20px;
+    background-color: #8b8686;
+    text-align: center;
+}
+
+.icone {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+#hackathon
+{
+    margin-top: 100px;
+    height: 100px;
+}
+#golin
+{
+    margin-top: 100px;
+    height: 100px;
+}
+#hero
+{
+    margin-top: 100px;
+    height: 100px;
+}
+.texto-colunas
+{
+    font-family: roboto-thin,sans-serif;
+    text-align: justify;
+    padding: 20px;
+    margin: 20px;
+    color: #fff;
+
+}
